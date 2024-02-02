@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background-color: #014E56;
+}
+
+.header {
+    background-color: #014E56;
+    padding-bottom: 120px;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header_sub_block {
+    display: flex;
+    gap: 40px;
+    ;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.header_btn {
+    width: 153px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 24px;
+    padding: 9px 33px;
+    background: #014E56;
+    border: 1px solid #fff;
+}
+
+.contact {
+    background-image: url(./images/logo1.svg), url(./images/icon2.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+.contact_block {
+    display: flex;
+    gap: 45px;
+
+}
+
+.contact_title {
+    width: 540px;
+}
+
+.contact_form {
+    width: 540px;
+}
+
+.contact_theme {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    padding-bottom: 16px;
+}
+
+.contact_text {
+    color: #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 10px;
+
+}
+
+.contact_item {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 75px;
+    line-height: 52px;
+    padding-bottom: 32px;
+    padding-top: 10px;
+    background-image: url(./images/Group\ 11\ \(1\).svg);
+    background-repeat: no-repeat;
+}
+
+.contact_item:nth-child(2) {
+    background-image: url(./icon.svg);
+}
+
+.contact_item:nth-child(3) {
+    background-image: url(./images/icon3.svg);
+}
+
+.forms {
+    width: 540px;
+}
+
+.contact_input {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+    color: #3764becd;
+}
+
+.contact_input {
+    width: 100%;
+    margin-bottom: 17px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #014E56;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    resize: none;
+}
+.description{
+    background-color: #014E56;
+    border:none;
+    padding-bottom: 24px;
+}
+.form_btn{
+    color: #004047;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    width: 150px;
+    border-radius:20px;
+    padding: 9px 33px;
+}
+
+.footer{
+    background-color:#000;
+}
+.footer_list{
+    width: 730px;
+    display: flex;
+}
+.footer_sub_item{
+    width: 380px;
+}
+.footer_block{
+    display: flex;
+    color:#fff;
+    padding: 40px;
+}
+.footer_title{
+    display: flex;
+    color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+gap: 40px;
+}
+.footer_sub_block{
+justify-content: space-between;
+padding-right: 70px;
+
+}
+.sub_item{
+    color: #FFF;
+font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px; 
+}
+.footer_text{
+    color: #FFF;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+padding-top: 51px;
+ }
